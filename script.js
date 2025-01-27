@@ -16,7 +16,7 @@ function updateTime() {
 
         const cityElement = document.getElementById(city.id);
         cityElement.querySelector('.date').textContent = formattedDate;
-        cityElement.querySelector('.time').textContent = '${formattedTime} ${amPm}';
+        cityElement.querySelector('.time').textContent = 'Time: ' + formattedTime;
     });
 }
 
